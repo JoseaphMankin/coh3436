@@ -22,6 +22,10 @@ main {
 	color: #ba2f2c;
 }
 
+.card-title {
+	color: green;
+}
+
 .brand-logo,
 img {
 	height: 100%;
