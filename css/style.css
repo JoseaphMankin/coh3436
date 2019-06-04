@@ -1,3 +1,4 @@
+/* Global  */
 body {
 	display: flex;
 	min-height: 100vh;
@@ -8,22 +9,10 @@ main {
 	flex: 1 0 auto;
 }
 
-.logo {
-	margin-top: 5px;
-	z-index: -1;
-}
+/* Navbar */
 
-.title {
-	text-align: center;
-}
-
-.sub-title {
-	text-align: center;
-	color: #ba2f2c;
-}
-
-.card-title {
-	color: green;
+nav {
+	background-color: #ba2f2c;
 }
 
 .brand-logo,
@@ -31,8 +20,14 @@ img {
 	height: 100%;
 }
 
-nav {
-	background-color: #ba2f2c;
+/* Home Page */
+.logo {
+	margin-top: 5px;
+	z-index: -1;
+}
+
+.title {
+	text-align: center;
 }
 
 .line {
@@ -48,11 +43,7 @@ nav {
 	margin: 0;
 }
 
-.card-box {
-	/* border: solid red 2px; */
-	height: 50px;
-}
-
+/* Footer */
 .page-footer {
 	background-color: #676767;
 }
